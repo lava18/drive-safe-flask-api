@@ -2,7 +2,7 @@
 A Flask API to predict the driver's state (`Safe Driving`, `Texting`, `Operating radio`, `Drinking`, `Reaching behind`) on a live webcam feed. 
 
 ## Steps
-1. Clone this repo
+1. Clone this repo and download the model weights file from [here](https://drive.google.com/file/d/1sssH1WhIW-XG_6Vg-FkNAv4ACX4nu3vQ/view?usp=sharing).
 
 2. Create a virtual environment on your machine (with `pip` or `conda`)
 
