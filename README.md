@@ -7,14 +7,14 @@ A Flask API to predict the driver's state (`Safe Driving`, `Texting`, `Operating
 2. Create a virtual environment on your machine (with `pip` or `conda`)
 
 3. Activate the virtual environment and install the dependencies: \
-```pip install -r requirements.txt```
+`pip install -r requirements.txt`
 
 4. Start the Flask server: \
  `python app.py`\
 This will start a server on port 4000.
 
 5. Go to the browser and test your API: \
-`http://localhost:4000/ping`
+`http://localhost:4000/ping`\
 You should see a message - **API Working**
 
 6. Now, invoke your API for a test image:\
