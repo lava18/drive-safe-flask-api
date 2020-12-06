@@ -24,10 +24,11 @@ You should see a message - **API Working**
 
 7. Finally, get predictions on your live webcam stream: \
 `http://localhost:4000/predict` \
-This will switch on your webcam and start streaming the video to the model.\
-
-(On Mac, you may need to give the Terminal the permission to access the web camera.)\
+This will switch on your webcam and start streaming the video to the model.
 **Finally, you will be able to view the predictions in real-time!**
+
+*Note: On Mac, you may need to give the Terminal the permission to access the web camera.*
+
 
 ## References
 This repo uses a deep learning model trained on [this](https://www.kaggle.com/c/state-farm-distracted-driver-detection/data) Kaggle dataset. 
