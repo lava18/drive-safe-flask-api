@@ -7,9 +7,9 @@ A Flask API to predict the driver's state (`Safe Driving`, `Texting`, `Operating
 2. Create a virtual environment on your machine (with `pip` or `conda`)
 
 3. Activate the virtual environment and install the dependencies: 
-~~~ 
+```python
 pip install -r requirements.txt 
-~~~
+```
 
 4. Start the Flask server: 
 ~~~
