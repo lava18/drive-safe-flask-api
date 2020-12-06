@@ -1,4 +1,4 @@
-# drive-safe-docker
+# drive-safe-flask-api
 A Flask API to predict the driver's state (`Safe Driving`, `Texting`, `Operating radio`, `Drinking`, `Reaching behind`) on a live webcam feed. 
 
 ## Steps
