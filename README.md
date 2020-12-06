@@ -7,7 +7,7 @@ A Flask API to predict the driver's state (`Safe Driving`, `Texting`, `Operating
 2. Create a virtual environment on your machine (with `pip` or `conda`)
 
 3. Activate the virtual environment and install the dependencies: \
-`pip install -r requirements.txt`
+```pip install -r requirements.txt```
 
 4. Start the Flask server: \
  `python app.py`\
@@ -24,7 +24,7 @@ You should see a message - **API Working**
 
 7. Finally, get predictions on your live webcam stream: \
 `http://localhost:4000/predict` \
-This will switch on your webcam and start streaming the video to the model.
+This will switch on your webcam and start streaming the video to the model. \
 **Finally, you will be able to view the predictions in real-time!**
 
 *Note: On Mac, you may need to give the Terminal the permission to access the web camera.*
