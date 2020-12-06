@@ -23,9 +23,9 @@ You should see a message - **API Working**
 ![Predicted test image](https://drive.google.com/uc?export=view&id=10wcY66yTk46w64EfyMYj5Ne_eq1dA4Nr)
 
 7. Finally, get predictions on your live webcam stream: \
-`http://localhost:4000/predict` 
-
+`http://localhost:4000/predict`  \
 This will switch on your webcam and start streaming the video to the model. \
+
 **Finally, you will be able to view the predictions in real-time!**
 
 *Note: On Mac, you may need to give the Terminal the permission to access the web camera.*
