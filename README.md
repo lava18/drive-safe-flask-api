@@ -13,8 +13,8 @@ This will start a server on port 4000.
 `http://localhost:4000/ping`
 6. Now, invoke your API for a test image:\
 `http://localhost:4000/test`
-7. Finally, get predictions on your live webcam stream:
-`http://localhost:4000/predict`
+7. Finally, get predictions on your live webcam stream: \
+`http://localhost:4000/predict` \
 This will switch on your webcam and start streaming the video to the model.
 (On Mac, you may need to give the Terminal the permission to access the web camera.)
 You will be able to view the predictions in real-time on your browser.
