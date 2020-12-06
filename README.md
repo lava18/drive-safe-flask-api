@@ -21,7 +21,6 @@ You should see a message - **API Working**
 `http://localhost:4000/test`\
 ![Predicted test image]("https://drive.google.com/file/d/10wcY66yTk46w64EfyMYj5Ne_eq1dA4Nr/view?usp=sharing")
 
-
 7. Finally, get predictions on your live webcam stream: \
 `http://localhost:4000/predict` \
 This will switch on your webcam and start streaming the video to the model.\
@@ -30,4 +29,4 @@ This will switch on your webcam and start streaming the video to the model.\
 **Finally, you will be able to view the predictions in real-time!**
 
 ## References
-This repo uses a deep learning Keras model trained on [this](https://www.kaggle.com/c/state-farm-distracted-driver-detection/data) Kaggle dataset. 
+This repo uses a deep learning model trained on [this](https://www.kaggle.com/c/state-farm-distracted-driver-detection/data) Kaggle dataset. 
