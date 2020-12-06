@@ -7,24 +7,37 @@ A Flask API to predict the driver's state (`Safe Driving`, `Texting`, `Operating
 2. Create a virtual environment on your machine (with `pip` or `conda`)
 
 3. Activate the virtual environment and install the dependencies: \
-`pip install -r requirements.txt`
+~~~~
+pip install -r requirements.txt
+~~~
 
-4. Start the Flask server: \
- `python app.py`\
+4. Start the Flask server: 
+~~~ 
+python app.py 
+~~~ 
+
 This will start a server on port 4000.
 
-5. Go to the browser and test your API: \
-`http://localhost:4000/ping`\
+5. Go to the browser and test your API: 
+~~~
+http://localhost:4000/ping
+~~~
+
 You should see a message - **API Working**
 
-6. Now, invoke your API for a test image:\
-`http://localhost:4000/test`
+6. Now, invoke your API for a test image:
+~~~
+http://localhost:4000/test
+~~~
 
 ![Predicted test image](https://drive.google.com/uc?export=view&id=10wcY66yTk46w64EfyMYj5Ne_eq1dA4Nr)
 
-7. Finally, get predictions on your live webcam stream: \
-`http://localhost:4000/predict`  \
-This will switch on your webcam and start streaming the video to the model. \
+7. Finally, get predictions on your live webcam stream: 
+~~~
+http://localhost:4000/predict
+~~~
+
+This will switch on your webcam and start streaming the video to the model. 
 
 **Finally, you will be able to view the predictions in real-time!**
 
