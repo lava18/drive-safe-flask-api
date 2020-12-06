@@ -20,7 +20,7 @@ You should see a message - **API Working**
 6. Now, invoke your API for a test image:\
 `http://localhost:4000/test`\
 ![Predicted test image](https://drive.google.com/file/d/10wcY66yTk46w64EfyMYj5Ne_eq1dA4Nr/view?usp=sharing)
-<img src="https://drive.google.com/file/d/10wcY66yTk46w64EfyMYj5Ne_eq1dA4Nr/view?usp=sharing" width=800 /> 
+<img src="https://drive.google.com/file/d/10wcY66yTk46w64EfyMYj5Ne_eq1dA4Nr/view?usp=sharing" width=800 raw=true/> 
 
 7. Finally, get predictions on your live webcam stream: \
 `http://localhost:4000/predict` \
